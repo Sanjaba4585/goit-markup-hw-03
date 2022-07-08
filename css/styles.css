@@ -1,0 +1,240 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --background-color #2F303A;
+    
+}
+
+body {
+   
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текса  #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* цвет текста футер rgba(255, 255, 255, 0.6); */
+/* вторичный цвет фона #F5F4FA */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid red;
+}
+.logo {
+    color: var(--accent-color);
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+button .content,
+.button.current{
+color: var(--title-text-color);
+background-color:#F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.53;
+}
+
+.content:hover,
+.content:focus {
+background-color: var(--accent-color);
+color:#ffffff
+}
+
+
+
+.content.current {
+    background-color: var(--accent-color);
+    color:var(--primary-white-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+color: var(--accent-color);
+}
+.contacts .link{
+color: var(--primary-text-color);
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+/* site-nav */
+.site-nav .link{
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.link.current {
+color: var(--accent-color);
+}
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* hero */
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* feature */
+.feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* comand */
+.comand-list .title {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.comand-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.hero button {
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color:var(--accent-color);
+}
+
+.hero button:hover{
+background-color:#188CE8; 
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.works{
+    background-color: #F5F4FA;
+}
+.footer{
+    background-color: #2F303A;
+    height:100%;
+    width:100%;
+    
+}
+.heroes{
+    background-color: #2F303A;
+  
+  
+}
+.footer .link {
+    color: var(--primary-white-color);
+}
+
+.footer .link{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+ 
+}
+.footer .links :hover,
+.footer .links :focus {
+color: var(--accent-color);
+}
+span{
+    color: var(--primary-white-color);
+
+}
+/* portfolio */
+
+.picture-nav .link{
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;    
+
+}
+.picture-nav .text{
+
+color: var(--primary-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+}
+
+.picture-nav .headin{
+ 
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+span .adress {
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
+.spanhead{
+    color: var(--title-text-color);
+}
+
