@@ -7,42 +7,46 @@
         <title>Document</title>
         <link rel="stylesheet" href="./css/reset.css" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         />
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
         <!-- Шапка сайта -->
         <header class="page-header">
-            <div class="container">
-                <nav>
+            <div class="container header">
+                <nav class="main-nav">
                     <a href="index.html" class="logo" lang="en"
                         >Web<span class="spanhead">Studio</span></a
                     >
                     <ul class="site-nav">
-                        <li>
+                        <li class="item">
                             <a href="./index.html" class="link current"
                                 >Студия</a
                             >
                         </li>
-                        <li>
+                        <li class="item">
                             <a href="./portfolio.html" class="link"
                                 >Портфолио</a
                             >
                         </li>
-                        <li>
+                        <li class="item">
                             <a href="./contact.html" class="link">Контакты </a>
                         </li>
                     </ul>
                 </nav>
-                <ul class="contacts link">
-                    <li>
+                <ul class="contacts-link">
+                    <li class="item">
                         <a href="mailto:nfo@devstudio.com" class="link"
                             >info@devstudio.com</a
                         >
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="tel:+380961111111" class="link"
                             >+38 096 111 11 11</a
                         >
@@ -53,7 +57,7 @@
 
         <main>
             <!-- Герой -->
-            <section class="hero">
+            <section class="section hero">
                 <div class="container heroes">
                     <h1 class="hero-title">
                         Эффективные решения для вашего бизнеса
@@ -69,28 +73,28 @@
                 <h2 class="visually-hidden">Преимущества</h2>
                 <div class="container">
                     <ul class="feature-list">
-                        <li>
+                        <li class="item">
                             <h3 class="title">Внимание к деталям</h3>
                             <p class="text">
                                 Идейные соображения, а также начало повседневной
                                 работы по формированию позиции.
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <h3 class="title">Пунктуальность</h3>
                             <p class="text">
                                 Задача организации, в особенности же рамки и
                                 место обучения кадров влечет за собой.
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <h3 class="title">Планирование</h3>
                             <p class="text">
                                 Равным образом консультация с широким активом в
                                 значительной степени обуславливает.
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <h3 class="title">Современные технологии</h3>
                             <p class="text">
                                 Значимость этих проблем настолько очевидна, что
@@ -106,15 +110,15 @@
                 <div class="container">
                     <h2 class="section-title">Чем мы занимаемся</h2>
 
-                    <ul>
-                        <li>
+                    <ul class="item-section">
+                        <li class="image">
                             <img
                                 src="./images/imgkodin.jpg"
                                 alt="кодинг"
                                 width="370"
                             />
                         </li>
-                        <li>
+                        <li class="image">
                             <img
                                 src="./images/imgadaptetion.jpg"
                                 alt="адаптация"
@@ -122,7 +126,7 @@
                             />
                         </li>
 
-                        <li>
+                        <li class="image">
                             <img
                                 src="./images/imgdizaer.jpg"
                                 alt="Дизайн"
@@ -136,10 +140,10 @@
             <!-- Наша команда -->
             <section class="section">
                 <div class="container works">
-                    <h2 class="section-title">Наша команда</h2>
+                    <h2 class="section-title comand">Наша команда</h2>
 
                     <ul class="comand-list">
-                        <li>
+                        <li class="item">
                             <img
                                 src="./images/imgIgor.jpg"
                                 alt="Игорь Демьяненко"
@@ -148,7 +152,7 @@
                             <h3 class="title">Игорь Демьяненко</h3>
                             <p lang="en" class="text">Product Designer</p>
                         </li>
-                        <li>
+                        <li class="item">
                             <img
                                 src="./images/imgOlga.jpg"
                                 alt="Ольга Репина"
@@ -157,7 +161,7 @@
                             <h3 class="title">Ольга Репина</h3>
                             <p lang="en" class="text">Frontend Developer</p>
                         </li>
-                        <li>
+                        <li class="item">
                             <img
                                 src="./images/imgNikola.jpg"
                                 alt="Николай Тарасов"
@@ -166,7 +170,7 @@
                             <h3 class="title">Николай Тарасов</h3>
                             <p lang="en" class="text">Marketing</p>
                         </li>
-                        <li>
+                        <li class="item">
                             <img
                                 src="./images/imgMihail.jpg"
                                 alt="Михаил Ермаков"
@@ -183,10 +187,10 @@
         <!-- Футер -->
         <footer>
             <div class="container footer">
-                <a href="index.html" lang="en" class="logo"
+                <a href="index.html" lang="en" class="logo footer"
                     >Web<span>Studio</span></a
                 >
-                <address>
+                <address class="box">
                     <ul class="footer links">
                         <li>
                             <a
