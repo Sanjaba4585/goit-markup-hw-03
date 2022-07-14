@@ -61,9 +61,11 @@ body {
 
 button {
     font-family: inherit;
-    cursor: pointer;
-    margin-bottom: 50px;
-       
+    cursor: pointer;    
+}
+
+.button{
+margin-bottom: 50px;
 }
 
 
@@ -73,8 +75,6 @@ border-radius: 4px;
 padding: 6px 26px;
 display: inline-block;
 border: none;
-
-
 
 color: var(--title-text-color);
 background-color:#F5F4FA;
